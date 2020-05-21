@@ -8,12 +8,7 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "stopOnEntry": true,
-            "pythonPath": "${C:/Users/SajalDua/AppData/Local/Programs/Python/Python38/python.exe}",
             "program": "${file}",
-            "cwd": "${workspaceFolder}",
-            "env": {},
-            "envFile": "${workspaceFolder}/.env",
             "console": "integratedTerminal"
         }
     ]
