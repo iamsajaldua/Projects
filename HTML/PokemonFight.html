@@ -1,0 +1,83 @@
+<!--Created By Sajal Dua aka (THE ONE ABOVE ALL)-->><!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8"> 
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+  <script src="script.js"></script> 
+  <link rel="stylesheet" href="style.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Courgette&amp;display=swap" rel="stylesheet"> 
+  <title>Pokemon Game</title> 
+ </head> 
+ <body> 
+  <div id="main_stage"> 
+   <div id="greetings"> 
+    <div class="greetings_box"> 
+     <p id="greetings_text"></p> 
+    </div> 
+    <div id="start_btn">
+      Start! 
+    </div> 
+   </div> 
+   <div id="ending"> 
+    <p id="ending_text">You Lose!!!</p> 
+    <img id="end_image" src="https://i.imgur.com/Zjj9NcF.jpg"> 
+    <a id="try_again" href="https://code.sololearn.com/W5944F7O7X0d/?ref=app">Try Again</a> 
+   </div> 
+   <div id="game_contents"> 
+    <img id="opponent_img" src="https://i.imgur.com/wZ5ePZt.gif" alt="charizard"> 
+    <img id="pikachu_img" src="https://i.imgur.com/gPPOQNE.gif" alt="pikachu"> 
+    <img id="attack_img" src="https://i.imgur.com/fB8xmmm.gif"> 
+    <img id="serena_avatar_img" src="https://i.imgur.com/zzr5Ceh.png" alt="Serena Avatar"> 
+    <br> 
+    <svg class="serena_land_svg" width="264px" height="77px"> 
+     <ellipse cx="135" cy="25" rx="100" ry="25" style="stroke:#c18605;
+                           stroke-width:6px;
+                           fill:#ffbf0f;"></ellipse> 
+    </svg> 
+    <svg class="opponent_land_svg" width="264px" height="77px"> 
+     <ellipse cx="135" cy="25" rx="100" ry="25" style="stroke:#c18605;
+                           stroke-width:6px;
+                           fill:#ffbf0f;"></ellipse> 
+    </svg> 
+    <div class="serena_stats"> 
+     <p>PIKACHU<span>Lv 90</span></p> 
+     <progress id="pika_bar" max="350" value="350"></progress> 
+     <p id="pika_health">350/350</p> 
+    </div> 
+    <div class="opponent_stats"> 
+     <p id="opponent_pkmn">CHRIZARD<span>Lv 70</span></p> 
+     <progress id="opponent_bar" max="400" value="400"></progress> 
+     <p id="opponent_health">400/400</p> 
+    </div> 
+    <div class="ui_box"> 
+     <p id="dialog_text" style="margin-left: 5px"></p> 
+     <div class="control_box"> 
+      <div id="fight">
+        Fight 
+      </div> 
+      <div id="run">
+        Run 
+      </div> 
+      <div id="change_pokemon">
+        Change Pokemon 
+      </div> 
+     </div> 
+     <div class="attack_menu"> 
+      <div id="attack1">
+        Thunder Bolt 
+      </div> 
+      <div id="attack2">
+        Tackle 
+      </div> 
+      <div id="attack3">
+        Electro Ball 
+      </div> 
+      <div id="attack4">
+        Volt Tackle 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>
