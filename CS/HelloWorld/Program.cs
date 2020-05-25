@@ -7,7 +7,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             var c1 = new MyClass();
-            Console.WriteLine("Hello World!");
+            Console.WriteLine($"Hello World! {c1.ReturnMessage() }");
         }
     }
 }
